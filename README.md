@@ -1,9 +1,11 @@
 Steps to use backend services:
+
 -> Pull Docker image from Docker Hub path: https://hub.docker.com/r/qwkz/backend-services/tags
 -> Run the backend services locally with command: docker container run --publish 4000:4000 qwkz/backend-services:latest
 
 Steps to run the aggregation service:
--> Download and unzip the code from Github path:
+
+-> Download and unzip the attached code
 -> Run the project from command prompt from the folder it was unzipped with command: mvn spring-boot:run
 -> Tomcat server runs on port 8080. 
 -> Open browser and hit the below service for aggregation service:
